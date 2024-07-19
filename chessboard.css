@@ -1,0 +1,25 @@
+*{
+    width: 100vh;
+    height: 20vh;
+}
+body{
+    background-color: #5e6069;
+}
+.chessboard{
+    height: 320px;
+    width: 320px;
+    border: 3px solid black;
+    background: repeating-linear-gradient(white 0,white 40px,black 40px,black 80px),repeating-linear-gradient(to right,black 0px,black 40px,white 40px,white 80px);
+    background-blend-mode: exclusion;
+}
+.chessboard{
+    position: relative;
+    left:500px;
+    top:50px;
+}
+.head{
+  position: relative;
+  left:530px;
+    top:160px;
+color: rgb(255, 0, 0);
+}
